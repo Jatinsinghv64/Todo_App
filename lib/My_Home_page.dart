@@ -65,8 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
         },
         child: Icon(Icons.add),
       ),
+
       appBar: AppBar(
+
         title: Text("TODO: $category"),
+
         centerTitle: true,
         actions: [
           PopupMenuButton(
